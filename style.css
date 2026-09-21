@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6)),
+        url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+    
+.main-info {
+    background: #3d5a80;
+    color: #e0fbfc;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+}
+
+.main-info h1 {
+    margin: 0;
+}
+
+.introductions, .portfolio, .resume, .dice, .dogs {
+    background: #9dcae4;
+    color: #293241;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border: 3px solid #293241;
+    border-radius: 50px;
+}
+
+.profile-image {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border: 3px solid #293241;
+    margin: 20px;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.hobbies ul,
+.course ul {
+    list-style-type: square;
+}
+
+a:link {
+    color: #004fc4;
+}
+
+a:visited {
+    color: #00a2cf;
+}
+
+a:hover {
+    color: #004fc4;
+}
+
+a:active {
+    color: #293241;
+}
+
+.updated {
+    color: white;
+}
