@@ -31,7 +31,7 @@ body {
     margin: 0;
 }
 
-.introductions, .portfolio, .resume, .dice, .dogs {
+.introductions, .portfolio, .resume, .dice, .dogs, .new-dice {
     background: #9dcae4;
     color: #293241;
     padding: 15px 20px;
